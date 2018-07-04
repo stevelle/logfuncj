@@ -1,0 +1,8 @@
+<configuration>
+    <appender name="TEST" class="me.stevelle.logging.testSupport.TestAppender"/>
+
+    <root>
+        <level value="error" />
+        <appender-ref ref="TEST" />
+    </root>
+</configuration>
